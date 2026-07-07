@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     siteName: "Saud Abbasi",
     images: [
       {
-        url: "/preview.avif",
+        url: "/preview.webp",
         width: 1200,
         height: 630,
         alt: "Saud Abbasi Portfolio",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   title: "Saud Abbasi | Full Stack Next.js Developer",
   description:
     "Building high-end websites and web apps for startups, businesses, and founders.",
-  images: ["/preview.avif"],
+  images: ["/preview.webp"],
 },
   icons: {
     icon: "/favicon.ico",
