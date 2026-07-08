@@ -4,7 +4,7 @@ import CtaSection from "./components/cta";
 import HeroSection from "./components/hero";
 import Reviewsectio from "./components/reviews";
 import ExpertiseSection from "./components/expertise";
-import WhyusSection from "./components/whyus";
+import WhyusSection from "./components/services";
 import AOS from "aos";
 import Navbarsection from "./components/navbar";
 import IntroductionSection from "./components/intro";

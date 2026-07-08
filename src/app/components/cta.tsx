@@ -21,7 +21,7 @@ const CtaSection = () => {
                 <h2 className="text-[clamp(2.76rem,6vw,5.8rem)] font-semibold leading-[1] uppercase" id="contact">
                   LET'S BUILD
                   <br />
-                  <span className="font-light italic lowercase">
+                  <span className="font-light italic lowercase itt">
                     something amazing
                   </span>
                   <br />

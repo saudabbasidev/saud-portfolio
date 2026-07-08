@@ -47,8 +47,8 @@ export default function IntroductionSection() {
 
           <div >
             <h2 className=" text-[clamp(1.9rem,6vw,5.8rem)] text-wrap font-semibold leading-[0.95] uppercase">
-              WHO'S BEHIND 
-              <span className="italic font-thin normal-case">the code ?</span>
+              WHO'S BEHIND  
+              <span className="italic font-thin normal-case itt"> the code ?</span>
             </h2>
 
             <p className="mt-8 max-w-2xl text-zinc-400 leading-8">

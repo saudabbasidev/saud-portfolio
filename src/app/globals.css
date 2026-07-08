@@ -16,8 +16,10 @@ body {
 [data-aos="fade-up"] {
   transform: translate3d(0, 20px, 0);
 }
-.hero{
+.itt{
   font-family: "Instrument Serif";
   display: inline;
+  color: white;
+  font-weight: 100;
 
 }

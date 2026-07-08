@@ -55,7 +55,7 @@ const WhyusSection = () => {
         data-aos="fade-up"
         className="text-[clamp(1.76rem,6vw,5.8rem)] text-center px-2 font-semibold leading-[1.1] uppercase my-20">
           Imagine you work with one <br /> freelancer that has
-          <span className="text-zinc-500 italic lowercase  "> oversight </span>
+          <span className="text-white font-thin  italic lowercase itt  "> oversight </span>
           <br />
           over your business.
         </h1>

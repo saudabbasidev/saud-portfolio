@@ -76,9 +76,10 @@ export default function ProjectsSection() {
             <h2 className="uppercase font-semibold leading-[0.9] tracking-tight text-[clamp(3rem,7vw,6rem)]">
               FEATURED
               <br />
-              <span className="italic font-light lowercase">projects &</span>
-              <br />
-              case studies
+              <span className="italic font-light lowercase itt text-[clamp(3rem,7vw,5rem)]">
+                {" "}
+                projects & case studies
+              </span>
             </h2>
 
             <p className="mt-8 max-w-2xl text-zinc-400 leading-8">
@@ -137,12 +138,12 @@ export default function ProjectsSection() {
                 {/* Tech Stack */}
                 <div className="mt-6 flex flex-wrap gap-2">
                   {project.stack.map((tech) => (
-                    <span
+                    <p
                       key={tech}
                       className="badge badge-outline rounded-full border-zinc-700 px-3 py-3 text-xs"
                     >
                       {tech}
-                    </span>
+                    </p>
                   ))}
                 </div>
 

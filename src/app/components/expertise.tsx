@@ -25,8 +25,8 @@ export default function ExpertiseSection() {
           data-aos="fade-up"
           >
             <h2 className=" text-[clamp(1.9rem,6vw,5.8rem)] text-wrap font-semibold leading-[0.95] uppercase">
-              Everything You Need <br />
-              <span className="italic font-thin normal-case">
+              Everything You Need  <br />
+              <span className="italic font-thin normal-case itt"> 
                 to build exceptional web products
               </span>
             </h2>
