@@ -18,7 +18,7 @@ const CtaSection = () => {
               <div className="md:text-center"
               data-aos="fade-up"
               >
-                <h2 className="text-[clamp(2.76rem,6vw,5.8rem)] font-semibold leading-[1] uppercase">
+                <h2 className="text-[clamp(2.76rem,6vw,5.8rem)] font-semibold leading-[1] uppercase" id="contact">
                   LET'S BUILD
                   <br />
                   <span className="font-light italic lowercase">
@@ -35,12 +35,14 @@ const CtaSection = () => {
                 </p>
               </div>
             </div>
+<section >
 
           <ContactForm/>
+</section>
           </div>
         </section>
       </section>
-      <p className="text-center max-sm:text-sm max-xs:text-xs p-10 text-zinc-400">
+      <p className="text-center max-sm:text-sm max-xs:text-xs p-10 text-zinc-400" >
         Copyright © 2025 Saud Abbasi. All rights reserved.
       </p>
     </>
