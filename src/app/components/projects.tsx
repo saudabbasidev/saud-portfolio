@@ -38,23 +38,23 @@ const projects = [
     description:
       "A comprehensive Learning Management System powered by AI, built with Next.js and TypeScript. Features intelligent course recommendations, progress tracking, and interactive learning modules.",
     stack: ["Next.js", "TypeScript", "React", "MongoDB"],
-    image: "https://ai-lms.vercel.app",
+    image: "/ailms.png",
     live: "https://ailms-saud.vercel.app",
     github: "https://github.com/saudabbasidev/AI-LMS",
   },
 
-  {
-    id: 4,
-    title: "Linktree Clone",
-    category: "Web Application",
-    year: "2024",
-    description:
-      "A modern Linktree alternative built with Next.js and TypeScript. Allows users to create personalized link-sharing pages with beautiful customization options.",
-    stack: ["Next.js", "TypeScript", "React", "TailwindCSS"],
-    image: "https://via.placeholder.com/400x300?text=Linktree+Clone",
-    live: "https://linktree-clone.vercel.app",
-    github: "https://github.com/saudabbasidev/linktree-clone",
-  },
+  // {
+  //   id: 4,
+  //   title: "Linktree Clone",
+  //   category: "Web Application",
+  //   year: "2024",
+  //   description:
+  //     "A modern Linktree alternative built with Next.js and TypeScript. Allows users to create personalized link-sharing pages with beautiful customization options.",
+  //   stack: ["Next.js", "TypeScript", "React", "TailwindCSS"],
+  //   image: "https://via.placeholder.com/400x300?text=Linktree+Clone",
+  //   live: "https://linktree-clone.vercel.app",
+  //   github: "https://github.com/saudabbasidev/linktree-clone",
+  // },
 ];
 
 export default function ProjectsSection() {
