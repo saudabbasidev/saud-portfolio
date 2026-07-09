@@ -70,9 +70,9 @@ export default function IntroductionSection() {
           <div>
             <div className="relative overflow-hidden rounded-xl border border-zinc-800 aspect-[4/5]">
               <img
-                src="/me.jpg"
+                src="/me.avif"
                 alt="Saud Abbasi"
-                className="w-full h-full object-cover grayscale"
+                className="w-full h-full object-cover "
               />
 
               {/* Grain */}
@@ -101,7 +101,7 @@ export default function IntroductionSection() {
 
               <Info
                 title="Email"
-                value="hello@saudabbasi.dev"
+                value="saudnasirofficial@gmail.com"
                 icon={<Mail size={17} />}
               />
             </div>
@@ -161,7 +161,7 @@ export default function IntroductionSection() {
                 icon={<Mail size={18} />}
                 title="Email"
                 username="Let's Talk"
-                href="mailto:hello@saudabbasi.dev"
+                href="mailto:saudnasirofficial@gmail.com"
               />
 
               <SocialCard
