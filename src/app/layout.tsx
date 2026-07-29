@@ -1,6 +1,22 @@
 import type { Metadata } from "next";
+import { Manrope, Instrument_Serif } from "next/font/google";
 import "./globals.css";
 import "aos/dist/aos.css";
+
+const manrope = Manrope({
+  subsets: ["latin"],
+  variable: "--font-manrope",
+  display: "swap",
+  weight: ["200", "300", "400", "500", "600", "700", "800"],
+});
+
+const instrumentSerif = Instrument_Serif({
+  subsets: ["latin"],
+  variable: "--font-instrument-serif",
+  display: "swap",
+  weight: "400",
+  style: ["normal", "italic"],
+});
 
 export const metadata: Metadata = {
   title: "Saud dev",
@@ -41,7 +57,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`h-full w-full antialiased`}>
+    <html
+      lang="en"
+      className={`h-full w-full  ${manrope.variable} ${instrumentSerif.variable}`}
+    >
       <body className="">{children}</body>
     </html>
   );
