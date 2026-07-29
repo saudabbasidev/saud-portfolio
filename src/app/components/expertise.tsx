@@ -21,12 +21,10 @@ export default function ExpertiseSection() {
             <p className="text-sm pt-0.5 text-gray-300"> [DESCRIPTION] </p>
           </div>
 
-          <div 
-          data-aos="fade-up"
-          >
+          <div data-aos="fade-up">
             <h2 className=" text-[clamp(1.9rem,6vw,5.8rem)] text-wrap font-semibold leading-[0.95] uppercase">
-              Everything You Need  <br />
-              <span className="italic font-thin normal-case itt"> 
+              Everything You Need <br />
+              <span className="italic font-thin normal-case itt">
                 to build exceptional web products
               </span>
             </h2>
@@ -46,7 +44,7 @@ export default function ExpertiseSection() {
           <div className="flex flex-col  gap-10 items-center lg:w-1/2">
             {services.map((service, index) => (
               <div
-              data-aos="fade-up"
+                data-aos="fade-up"
                 key={index}
                 className="collapse border-b border-zinc-800 rounded-none"
               >

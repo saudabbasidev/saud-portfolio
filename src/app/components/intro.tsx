@@ -1,4 +1,5 @@
 import { ArrowUpRight, Mail, MapPin, Clock3 } from "lucide-react";
+import Image from "next/image";
 
 export default function IntroductionSection() {
   return (
@@ -68,16 +69,18 @@ export default function IntroductionSection() {
           {/* Image */}
 
           <div>
-            <div className="relative overflow-hidden rounded-xl border border-zinc-800 aspect-[4/5]">
-              <img
+            <div className="relative overflow-hidden rounded-xl border max-h-150 border-zinc-800 aspect-[4/5] flex justify-center max-md:w-full">
+              <Image
                 src="/me.avif"
+                width={300}
+                height={400}
                 alt="Saud Abbasi"
                 className="w-full h-full object-cover "
               />
 
               {/* Grain */}
 
-              <div className="absolute inset-0 opacity-10 bg-[url('/noise.png')]" />
+              
             </div>
           </div>
 

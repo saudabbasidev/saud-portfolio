@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 
@@ -42,19 +40,6 @@ const projects = [
     live: "https://ailms-saud.vercel.app",
     github: "https://github.com/saudabbasidev/AI-LMS",
   },
-
-  // {
-  //   id: 4,
-  //   title: "Linktree Clone",
-  //   category: "Web Application",
-  //   year: "2024",
-  //   description:
-  //     "A modern Linktree alternative built with Next.js and TypeScript. Allows users to create personalized link-sharing pages with beautiful customization options.",
-  //   stack: ["Next.js", "TypeScript", "React", "TailwindCSS"],
-  //   image: "https://via.placeholder.com/400x300?text=Linktree+Clone",
-  //   live: "https://linktree-clone.vercel.app",
-  //   github: "https://github.com/saudabbasidev/linktree-clone",
-  // },
 ];
 
 export default function ProjectsSection() {
@@ -110,9 +95,12 @@ export default function ProjectsSection() {
               >
                 {/* Perfect for 1200x630 OG images */}
                 <div className="relative aspect-[1.91/1] overflow-hidden">
-                  <img
+                  <Image
                     src={project.image}
                     alt={project.title}
+                    width={700}
+                    height={300}
+
                     className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
 
