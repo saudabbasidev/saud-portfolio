@@ -41,7 +41,7 @@ const projects = [
     github: "https://github.com/saudabbasidev/AI-LMS",
   },
   {
-    id: 3,
+    id: 4,
     title: "Beanro- Your Morning Starts Here",
     category: "Landing Page",
     year: "2024",
