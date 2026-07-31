@@ -30,14 +30,26 @@ const projects = [
 
   {
     id: 3,
-    title: "AI-LMS",
-    category: "Full Stack Application",
+    title: "Greenly- Your Future Garden",
+    category: "Landing Page",
     year: "2024",
     description:
-      "A comprehensive Learning Management System powered by AI, built with Next.js and TypeScript. Features intelligent course recommendations, progress tracking, and interactive learning modules.",
-    stack: ["Next.js", "TypeScript", "React", "MongoDB"],
-    image: "/ailms.png",
-    live: "https://ailms-saud.vercel.app",
+      "A responsive landscaping business landing page built with React and Tailwind CSS, designed to highlight services, build trust, and generate customer inquiries.",
+    stack: ["Next.js", "TypeScript", "React", "Tailwindcss"],
+    image: "https://greenly-saud-project.vercel.app/preview.avif",
+    live: "https://greenly-saud-project.vercel.app",
+    github: "https://github.com/saudabbasidev/AI-LMS",
+  },
+  {
+    id: 3,
+    title: "Beanro- Your Morning Starts Here",
+    category: "Landing Page",
+    year: "2024",
+    description:
+      "A modern and responsive cafe landing page built with React and Tailwind CSS, featuring a clean UI, menu showcase, and clear call-to-action for customers.",
+    stack: ["Next.js", "TypeScript", "React", "Tailwindcss"],
+    image: "https://cafe-saud-project.vercel.app/preview.avif",
+    live: "https://cafe-saud-project.vercel.app",
     github: "https://github.com/saudabbasidev/AI-LMS",
   },
 ];
