@@ -32,7 +32,7 @@ const projects = [
     id: 3,
     title: "Greenly- Your Future Garden",
     category: "Landing Page",
-    year: "2024",
+    year: "2026",
     description:
       "A responsive landscaping business landing page built with React and Tailwind CSS, designed to highlight services, build trust, and generate customer inquiries.",
     stack: ["Next.js", "TypeScript", "React", "Tailwindcss"],
@@ -44,7 +44,7 @@ const projects = [
     id: 4,
     title: "Beanro- Your Morning Starts Here",
     category: "Landing Page",
-    year: "2024",
+    year: "2026",
     description:
       "A modern and responsive cafe landing page built with React and Tailwind CSS, featuring a clean UI, menu showcase, and clear call-to-action for customers.",
     stack: ["Next.js", "TypeScript", "React", "Tailwindcss"],
